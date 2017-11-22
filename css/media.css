@@ -1,0 +1,73 @@
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+.container{
+	width: auto;
+}
+/*#kontakti{
+	padding-top: 0;
+}*/
+}
+/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+.my_menu {
+    display: none;
+
+}
+.header .dropdown {
+	display: block;
+	color: #000;
+	float: left;
+
+}
+
+.header .dropdown i{
+	color: #000;
+	float: left;
+}
+.header .dropdown i {
+	font-size: 30px;
+	padding-top: 30px;
+}
+ #kontakti {
+ 	margin-top: -160px;
+ 	float: right;
+ }
+}
+
+/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+ 
+.container{
+	width: auto;
+}
+ #kontakti {
+	margin-top: 0;
+	text-align: center;
+	float: left;
+
+ }
+}
+/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+/**/
