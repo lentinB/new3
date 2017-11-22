@@ -340,6 +340,7 @@ body{
 	border: 2PX solid #c9c9c9;
 	margin-left: -30px;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 .logo_footer a {
 	color: #000000;
@@ -355,7 +356,7 @@ body{
 	padding-left: 0;
 	padding-top: 10px;
 }
-.Footer_ul ol {
+.Footer_ul li {
 	padding-left: 0;
 	font-size: 16px;
 }
@@ -372,8 +373,6 @@ body{
 
 }
 .Footer_i a {
-
-	padding-left: 25px;
 	font-size: 32px;
 }
 /*конец*/

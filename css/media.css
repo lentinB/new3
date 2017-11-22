@@ -13,9 +13,7 @@
 .container{
 	width: auto;
 }
-/*#kontakti{
-	padding-top: 0;
-}*/
+
 }
 /**/
 
@@ -45,6 +43,12 @@
  	margin-top: -160px;
  	float: right;
  }
+.my_footer {
+	margin-left: -15px;
+}
+.clok1 {
+	float: left;
+}
 }
 
 /**/
