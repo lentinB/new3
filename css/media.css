@@ -10,44 +10,106 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
-.container{
-	width: auto;
+.blok {
+	height: 250px;
+	border: 1px solid #000000;
+	margin-bottom: 10px;		
+}
+/*карусель*/
+
+.logotipcarusel {
+	width: 454px;
+	
+}
+.logotipcarusel img{
+	width: 55%
+}
+.parallelogram {
+	background: radial-gradient(at 30% 100%, #f9eec7, #ffb60f, #ffb60f);
+    height: 207px;
+    width: 70%;
+    left: 181px;
+  
+}
+.parallelogram::after {
+	content: "";
+	position: absolute;
+	right: 235px;
+	top: 0px;
+	border: 60px solid transparent;
+	border-bottom: 175px solid #fff;
+	border-left: 20px solid #fff;
+}
+.ikon2 {
+	margin-top: -80px;
+}
+.ikon {
+	margin-top: 125px;
+}
+.logotipcarusel h3 {
+	margin-top: 50px;
+	font-size: 20px;
+	margin-right: 30px;
+}
+.logotipcarusel p {
+	margin-top: 40px;
+	font-size: 16px;
+	margin-right: 30px;
 }
 
+/*конец*/
+.application {
+	margin-right: -5px;
+}
+.my_footer {
+	margin-right: 8px;
+}
+.thumbs_clock_cogs {
+	display: none;
+}
+.thumbs_clock_cogs h3 {
+	margin-top: 20px;
+}
+.rub_ch h3{
+	margin-top: 30px;
 }
 /**/
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
+.container{
+	width: auto;	
+}
+
 .my_menu {
     display: none;
-
 }
 .header .dropdown {
 	display: block;
 	color: #000;
 	float: left;
-
 }
 
 .header .dropdown i{
 	color: #000;
-	float: left;
+	float: right;
 }
 .header .dropdown i {
 	font-size: 30px;
 	padding-top: 30px;
 }
  #kontakti {
- 	margin-top: -160px;
  	float: right;
  }
-.my_footer {
-	margin-left: -15px;
-}
+
 .clok1 {
 	float: left;
+}
+.blok {
+	height: 400px;
+	border: 1px solid #000000;
+	margin-bottom: 10px;		
 }
 }
 
